@@ -1,6 +1,6 @@
 [project]
 name = "advent-of-code-2025"
-version = "0.0.1"
+version = "0.0.2"
 description = "Solutions for Advent of Code 2025"
 requires-python = ">=3.14"
 dependencies = [
@@ -25,6 +25,7 @@ select = ["ALL"]
 ignore = [
     "D", # Ignore all docstring rules
     "COM812", # Trailing comma (conflicts with formatter)
+    "T201", # Allow print statements (used for debugging)
 ]
 
 [tool.ruff.lint.per-file-ignores]

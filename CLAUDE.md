@@ -18,6 +18,9 @@ uv run pytest tests/test_day_1.py
 
 # Run a specific test function
 uv run pytest tests/test_day_1.py::test_solve_first_example
+
+# virtualenv can be activated with (commands not prefixed with uv... might use the system Python otherwise)
+source .venv/bin/activate
 ```
 
 ## Code Architecture

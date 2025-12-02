@@ -10,7 +10,7 @@ source .venv/bin/activate  # . .\.venv\Scripts\activate on Windows
 # Tests (get answers)
 
 ```shell
-uv run pytest
+DEBUG=1 uv run pytest
 ```
 
 # Linting
