@@ -111,7 +111,6 @@ def is_invalid_id_v2(num: int) -> bool:
 
 
 def solve_second(file_name: str) -> int:
-    """Find and sum all invalid IDs using new rules (repeated at least twice)."""
     ranges = read_input(file_name)
     total = 0
     invalid_count = 0
